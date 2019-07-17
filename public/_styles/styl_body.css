@@ -1,0 +1,106 @@
+/* -------------------------- */
+:root {
+	--btn_font_sz: 0.8;
+
+	--uvc_bdr_px: 3px;
+	--uvc_utxt_bdr_mgn_left: -3px;
+	--uvc_utxt_pdng: 0.5em 1em;
+	--uvc_bln1_bdr_px_w: 16px;
+	--uvc_bln1_bdr_px_h: 8px;
+	--uvc_bln2_left: 4px;
+}
+
+/* -------------------------- */
+html {
+	font-family: Meiryo, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	max-width: 600px;
+
+	margin: 0 auto;
+	padding: 10px 10px 0 10px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+button {
+	font-family: Meiryo, sans-serif;
+	font-size: calc(var(--btn_font_sz) * 1rem);
+
+	box-sizing: border-box;
+	border-radius: 4px;
+	
+	border: 2px solid #22f;
+	background-color: #ddf;
+	color: #22f;
+
+	padding: 3px 0.5em;
+/*	transition: 0.3s; */
+}
+button:disabled {
+	border: 2px solid #aaa;
+	background-color: #ddd;
+	color: #aaa;
+}
+
+.frm {
+	position: fixed;
+
+	border: 2px solid #555;
+	background-image: url("../_images/b103.jpg");
+	color: #000;
+	padding: 0.8em;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	border-radius: 8px;
+	cursor: default;
+}
+
+/* -------------------------- */
+.RI_btn_entRm {
+	padding: 0 0.5em;
+}
+
+.RI_stg_member {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.RI_doj_member {
+	display: flex;
+	margin: 0 2em 0 0;
+}
+
+/* -------------------------- */
+.hr_1dot {
+	border-top: 1px dotted #888;
+	border-bottom: none;
+}
+
+.hr_room_prof {
+	border-top: 1px dotted #888;
+	border-bottom: none;
+}
+
+.hr_topic {
+	border-top: 2px solid #888;
+	border-bottom: none;
+}
+
+/* -------------------------- */
+.dbgcnsl_hr {
+	border-top: 1px dashed blue;
+	border-bottom: none;
+}
+
+.dbgcnsl_btn {
+	font-size: 0.5rem;
+	border: 1px solid #555;
+	border-radius: 0;
+	background: #eee;
+	color: #333;
+	padding: 0 0.4rem;
+}

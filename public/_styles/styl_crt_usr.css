@@ -1,0 +1,48 @@
+
+.crt_usr_frm {
+	position: fixed;
+	left: 1em;
+	top: 2em;
+	right: 1em;
+
+	border: 2px solid #555;
+	background-image: url("../_images/b103.jpg");
+	color: #000;
+	padding: 0.8em;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	border-radius: 8px;
+
+	z-index: 50;
+}
+
+.crt_usr_ipt_uname {
+	width: 12em;
+	padding: 10px 1em;
+	border: 2px solid #555;
+	border-radius: 4px;
+	font-size: 1em;
+}
+.crt_usr_ipt_uname::placeholder {
+	text-align: center;
+	font-size: 0.7em;
+	color: #999;
+}
+
+/* -------------------------- */
+.chr_pick_stg {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.icon_Lobby {
+	border: var(--uvc_bdr_px) solid #fff;
+	border-radius: 4px;
+	margin: 3px 0.5em 3px 5px;
+}
+
+/* -------------------------- */
+.site_description {
+	font-size: 0.7em;
+	margin-top: 2em;
+}

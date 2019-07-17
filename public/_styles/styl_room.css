@@ -1,0 +1,200 @@
+
+.rm_input_voice {
+	box-sizing: border-box;
+	width: 100%;
+	height: 4.5em;
+	padding: 0.5em 1em;
+
+	border: 2px solid #555;
+	border-radius: 4px;
+
+	line-height: 1.4;
+	resize: none;
+}
+.rm_input_voice::placeholder {
+	text-align: center;
+	font-size: 0.7em;
+	color: #999;
+}
+
+.rm_cnctlamp {
+	float: left;
+	border: 1px solid #aaa;
+	color: #aaa;
+	background: #ddd;
+	padding: 2px 7px;
+	margin-right: 10px;
+	font-size: 0.6em;
+}
+.rm_cnctlamp_on {
+	border: 1px solid #d00;
+	color: #d00;
+	background: #fcc;
+}
+
+.rm_fn_area {
+	display: table;
+	width: 100%;
+	margin: 2px 0 4px;
+}
+.rm_btn_left {
+	float: left;
+	margin-right: 10px;
+	padding: 1px 5px;
+}
+.rm_btn_rigth {
+	float: right;
+	margin-left: 10px;
+	padding: 1px 5px;
+}
+
+/* --------------------------- */
+.vc_sys_msg {
+	text-align: center;
+}
+
+.rm_uvc_stg {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.3em;
+}
+
+.rm_icon {
+	border: var(--uvc_bdr_px) solid #fff;
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5), inset -3px -3px 3px rgba(255, 255, 255, 0.3);
+}
+
+.rm_icon_mask__chr_pick {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	border-radius: 7px;
+	background: #000;
+	opacity: 0.3;
+}
+
+.rm_uvc_utxt {
+	margin-left: var(--uvc_utxt_bdr_mgn_left);
+	padding: var(--uvc_utxt_pdng);
+
+	border-radius: 7px;
+	border: var(--uvc_bdr_px) solid #fff;
+	color: #fff;
+
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5), inset -5px -5px 5px rgba(255, 255, 255, 0.3);
+}
+
+.rm_uvc_bln1 {
+	position: relative;
+	margin-top: 4px;
+	height: 2px;  /* アイコンとの接合部の高さ */
+
+	border-top: var(--uvc_bln1_bdr_px_h) solid transparent;
+	border-right: var(--uvc_bln1_bdr_px_w) solid #fff;
+	border-bottom: var(--uvc_bln1_bdr_px_h) solid transparent;
+/*	z-index: 1; */
+}
+
+.rm_uvc_bln2 {
+	position: absolute;
+	left: var(--uvc_bln2_left);
+	top: -5px;
+
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+/*	z-index: 2; */
+}
+
+/* --------------------------- */
+.fmsg_frm {
+	position: fixed;
+	left: 1em;
+	right: 1em;
+	bottom: 2em;
+
+	border: 2px solid #555;
+	background-image: url("../_images/b103.jpg");
+	color: #000;
+	padding: 0.8em;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	border-radius: 8px;
+
+	font-size: 0.8em;
+	z-index: 30;
+}
+
+.fmsg_btn {
+	float: right;
+	height: 2em;
+	padding: 0 0.5em;
+	margin-left: 1em;
+}
+
+.fmsg_btn_mv {
+	float: right;
+	height: 2em;
+	margin-right: 1em;
+
+	padding: 0 0.5em;
+	border: 2px solid #2a2;
+	background-color: #dfd;
+	color: #2a2;
+	font-size: 0.9em;
+}
+
+.fmsg_edt_txtarea {
+	box-sizing: border-box;
+	width: 100%;
+	height: 8em;
+	margin-top: 0.5em;
+	padding: 0.5em 1em;
+
+	border: 2px solid #555;
+	border-radius: 4px;
+
+	line-height: 1.4;
+	resize: none;
+}
+
+/* --------------------------- */
+.rm_etc_frm {
+	position: fixed;
+	left: 1em;
+	top: 2em;
+	right: 1em;
+
+	border: 2px solid #555;
+	background-image: url("../_images/b103.jpg");
+	color: #000;
+	padding: 0.8em;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	border-radius: 8px;
+
+	font-size: 0.8em;
+	cursor: default;
+	z-index: 20;
+}
+
+.rm_etc_uview {
+	position: relative;
+
+	padding: 4px 4px 1px;
+	border: 2px solid transparent;
+	border-radius: 5px;
+}
+
+.rm_etc_uview_mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	border-radius: 4px;
+	background: #000;
+	opacity: 0.3;
+}
